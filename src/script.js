@@ -1,7 +1,12 @@
 function generateStory(event) {
   event.preventDefault();
-  let shortStoryElement = document.querySelector("short-story");
-  shortStoryElement = "Story";
+
+  new Typewriter("#short-story", {
+    strings: "Story goes here",
+    autoStart: true,
+    delay: 25,
+    cursor: null,
+  });
 }
 
 let formElement = document.querySelector("#input-form");
