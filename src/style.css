@@ -61,6 +61,12 @@ input[type="submit"] {
   border-radius: 10px;
   box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.08);
 }
+.short-story strong {
+  color: #eb5b00;
+}
+.short-story em {
+  color: #eb5b00;
+}
 footer {
   text-align: center;
   font-size: 14px;
