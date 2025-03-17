@@ -1,6 +1,4 @@
 function displayStory(response) {
-  //   console.log(response.data.answer);
-
   new Typewriter("#short-story", {
     strings: response.data.answer,
     autoStart: true,
