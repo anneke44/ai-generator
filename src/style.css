@@ -1,0 +1,71 @@
+body {
+  background: rgba(221, 235, 157, 0.8);
+  font-family: "Karla", sans-serif;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #143d60;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+form {
+  margin-bottom: 40px;
+  display: flex;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.08);
+}
+.text-input {
+  padding: 10px;
+  border: 1px solid rgb(160, 200, 120);
+  border-radius: 50px;
+  width: 80%;
+  font-size: 16px;
+  line-height: 20px;
+}
+.submit-button {
+  margin-left: 5px;
+  width: 20%;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(160, 200, 120);
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: all 100ms ease-in-out;
+}
+input[type="submit"]:active {
+  transform: scale(0.94);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.24);
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+.short-story {
+  margin-bottom: 40px;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: white;
+  border-left: 5px solid #143d60;
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.08);
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+a {
+  color: #eb5b00;
+}
